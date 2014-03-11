@@ -49,7 +49,7 @@ ARCHITECTURE behavior OF Moore_testbench_leaf IS
     
 
    --Inputs
-   signal clk : std_logic := '0';
+   signal clk : std_logic := '0' ;
    signal reset : std_logic := '0';
    signal stop : std_logic := '0';
    signal up_down : std_logic := '0';
